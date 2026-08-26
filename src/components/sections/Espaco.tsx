@@ -1,8 +1,8 @@
 import { BotaoAera } from "@/components/aera/BotaoAera";
-import { Figura } from "@/components/aera/Placeholder";
+import { CarrosselGaleria } from "@/components/aera/CarrosselGaleria";
 import { Destaque, Eyebrow, Revelar, Section } from "@/components/aera/Section";
 import { useReserva } from "@/components/aera/ReservaProvider";
-import { IMAGENS } from "@/data/images";
+
 
 const CHIPS = ["50 minutos", "Reformer", "Até 19 pessoas"];
 
