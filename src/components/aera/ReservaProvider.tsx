@@ -36,7 +36,6 @@ export function ReservaProvider({ children }: { children: ReactNode }) {
       {children}
       <Dialog open={aberto} onOpenChange={setAberto}>
         <DialogContent
-          showCloseButton
           className="max-h-[100dvh] w-full max-w-lg overflow-y-auto rounded-none border-0 bg-creme p-6 sm:max-h-[92vh] sm:rounded-3xl sm:p-8"
         >
           <FormularioReserva

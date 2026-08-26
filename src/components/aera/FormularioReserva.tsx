@@ -290,7 +290,7 @@ function Campo({
   children,
 }: {
   label: string;
-  erro?: string;
+  erro?: string | undefined;
   children: React.ReactNode;
 }) {
   return (

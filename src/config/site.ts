@@ -11,6 +11,7 @@ export const SITE = {
   instagram: "@aerapilates",
   instagramUrl: "https://instagram.com/aerapilates",
   horario: "Segunda a sexta, 6h às 21h · Sábados, 7h às 12h",
+  whatsappExibicao: "(81) 99999-9999",
 } as const;
 
 export function whatsappLink(mensagem: string): string {
