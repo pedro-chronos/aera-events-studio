@@ -11,7 +11,7 @@ export function Espaco() {
 
   return (
     <Section id="espaco">
-      <div className="grid gap-8 md:grid-cols-[0.85fr_1.15fr] md:items-end">
+      <div className="max-w-2xl">
         <Revelar>
           <Eyebrow>Conheça o espaço</Eyebrow>
           <h2 className="mt-5 font-display text-[clamp(2rem,4.5vw,3rem)] leading-tight text-grafite">
@@ -32,12 +32,12 @@ export function Espaco() {
             ))}
           </ul>
         </Revelar>
-
-        <Revelar delay={80} className="grid gap-4 sm:grid-cols-2">
-          <Figura imagem={IMAGENS.espaco1} />
-          <Figura imagem={IMAGENS.espaco2} />
-        </Revelar>
       </div>
+
+      <Revelar delay={80} className="mt-10">
+        <CarrosselGaleria />
+      </Revelar>
+
 
       <Revelar delay={160} className="mt-12 flex justify-center">
         <BotaoAera tamanho="lg" onClick={() => abrir({ origem: "pos_galeria" })}>
